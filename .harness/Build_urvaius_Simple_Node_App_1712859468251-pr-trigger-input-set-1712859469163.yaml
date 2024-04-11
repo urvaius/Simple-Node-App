@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_urvaius_Simple_Node_App_1712859468251-pr-trigger-input-set
+  identifier: Build_urvaius_Simple_Node_App_1712859468251prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: nodepipetest
+  pipeline:
+    identifier: Build_urvaius_Simple_Node_App_1712859468251
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
