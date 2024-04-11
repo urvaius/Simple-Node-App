@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_urvaius_Simple_Node_App_1712857291577-push-trigger-input-set
+  identifier: Build_urvaius_Simple_Node_App_1712857291577pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: nodepipelinetest
+  pipeline:
+    identifier: Build_urvaius_Simple_Node_App_1712857291577
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
